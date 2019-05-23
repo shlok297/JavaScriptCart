@@ -1,0 +1,23 @@
+{
+  "name": "cognizant-summative1-master",
+  "version": "1.0.0",
+  "description": "Cognizant has been engaged to help build a site for Ali Snobba - a snobby online store where customers purchase high-end merchandise like Louis Vuitton handbags and Rolex watches.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gSchool/cognizant-summative1-master.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gSchool/cognizant-summative1-master/issues"
+  },
+  "homepage": "https://github.com/gSchool/cognizant-summative1-master#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
