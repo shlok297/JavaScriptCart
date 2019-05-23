@@ -1,4 +1,4 @@
-const Cart = require('../cognizant-summative1-master/cart');
+const Cart = require('./cart');
 const Product = require('./product');
 const expect = require('chai').expect;
 
@@ -122,5 +122,18 @@ describe('Cart', () => {
 
         // Assert
         expect(actual.toString()).to.deep.equal(' Brush 3');
+    });
+
+    it("show the correct value of the discount", () => {
+        // Arrange
+        let expected = 30;
+        let qty = 3;
+        const cart = setUp();
+
+        // Act
+        let actual = cart.percentDiscountProvided(qty);
+        
+        // Assert
+        expect(actual).to.be.equals(expected);
     });
 });

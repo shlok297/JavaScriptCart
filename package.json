@@ -1,5 +1,5 @@
 {
-  "name": "cognizant-summative1-master",
+  "name": "java-script-cart",
   "version": "1.0.0",
   "description": "Cognizant has been engaged to help build a site for Ali Snobba - a snobby online store where customers purchase high-end merchandise like Louis Vuitton handbags and Rolex watches.",
   "main": "index.js",
@@ -19,5 +19,6 @@
   "dependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.1.4"
-  }
+  },
+  "devDependencies": {}
 }
